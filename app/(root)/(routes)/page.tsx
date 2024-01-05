@@ -13,9 +13,5 @@ export default function RootPage() {
       onOpen();
     }
   }, [isOpen, onOpen]);
-  return (
-    <>
-      <h1>Root Layout</h1>
-    </>
-  );
+  return null;
 }
