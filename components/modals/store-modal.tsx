@@ -78,7 +78,7 @@ const StoreModal = () => {
                 );
               }}
             />
-            <div className="pt-6 space-x-2 flex items-center justify-end w-full">
+            <div className="flex w-full items-center justify-end space-x-2 pt-6">
               <Button
                 disabled={Loading}
                 variant={"outline"}
