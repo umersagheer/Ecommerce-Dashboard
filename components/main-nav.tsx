@@ -34,6 +34,11 @@ export const MainNav = ({
       active: pathname === `/${params.storeId}/sizes`,
     },
     {
+      href: `/${params.storeId}/colors`,
+      label: "Colors",
+      active: pathname === `/${params.storeId}/colors`,
+    },
+    {
       href: `/${params.storeId}/settings`,
       label: "Settings",
       active: pathname === `/${params.storeId}/settings`,
@@ -52,7 +57,7 @@ export const MainNav = ({
               className={cn(
                 "text-sm font-medium transition-colors hover:text-primary",
                 route.active
-                  ? "text-black dark:text-white"
+                  ? "font-semibold text-slate-800 dark:text-white"
                   : "text-muted-foreground",
               )}
             >
